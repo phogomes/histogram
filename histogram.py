@@ -19,7 +19,7 @@ analyze=list()
 plt.xlabel('diameter of particle [nm]')
 plt.ylabel('frequence')
 #plt.title(f'Comparison between different doses')
-
+#mudei aqui
 for files in range(1,numberoffile+1):
 
 	arq = pd.read_csv(f'{DATATOANALYZE}{files}.csv')
